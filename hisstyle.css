@@ -1,8 +1,6 @@
 body {
     margin: auto;
-    /* display: flex; */
     justify-content: center;
-    /* flex-direction: column; */
     font-family: 'Lexend Deca';
     background-color: hsl(0, 0%, 95%);
 }
@@ -12,9 +10,7 @@ body {
     width: min-content;
     color: hsla(0, 0%, 100%, 0.75);
     border-radius: 10px;
-    /* margin-top: 5rem; */
     margin-bottom: 5rem;
-    /* margin-left: 5rem; */
 }
 
 .card {
@@ -101,16 +97,10 @@ button:hover {
 }
 
 @media (max-width: 375px) {
-    /* body {
-        align-items: center;
-    } */
     .cards {
         flex-direction: column;
         margin: 0;
     }
-    /* .card {
-        margin-bottom: 0;
-    } */
     #sedan {
         background-color: hsl(31, 77%, 52%);
         border-radius: 15px 15px 0 0;
