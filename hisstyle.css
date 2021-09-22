@@ -1,26 +1,25 @@
 body {
     margin: 0;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     font-family: 'Lexend Deca';
     background-color: hsl(0, 0%, 95%);
 }
 
 .cards {
     display: flex;
-    /* width: min-content; */
+    width: min-content;
     color: hsla(0, 0%, 100%, 0.75);
     border-radius: 10px;
-    /* margin-bottom: 10px; */
+    /* margin-top: 5rem; */
+    margin-bottom: 5rem;
+    /* margin-left: 5rem; */
 }
 
 .card {
-    /* margin-top: 5rem; */
     padding: 60px;
     min-width: 12.5rem;
-    /* min-height: 25rem; */
 }
 
 #sedan {
@@ -92,13 +91,26 @@ button:hover {
     color: hsl(0, 0%, 95%);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (max-width: 375px) {
+    body {
+        align-items: center;
+    }
     .cards {
         flex-direction: column;
+        margin: 0;
     }
-    .card {
+    /* .card {
         margin-bottom: 0;
-    }
+    } */
     #sedan {
         background-color: hsl(31, 77%, 52%);
         border-radius: 15px 15px 0 0;
