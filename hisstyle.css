@@ -1,10 +1,11 @@
 body {
-    margin: auto;
+    margin: 0;
     font-family: 'Lexend Deca';
     background-color: hsl(0, 0%, 95%);
 }
 
 .cards {
+    margin: auto;
     display: flex;
     justify-content: center;
     width: min-content;
