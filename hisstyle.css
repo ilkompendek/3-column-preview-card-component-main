@@ -96,7 +96,7 @@ button:hover {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .cards {
         flex-direction: column;
         margin: 0;
