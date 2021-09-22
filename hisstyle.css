@@ -10,7 +10,7 @@ body {
 
 .cards {
     display: flex;
-    width: min-content;
+    /* width: min-content; */
     color: hsla(0, 0%, 100%, 0.75);
     border-radius: 10px;
     /* margin-bottom: 10px; */
