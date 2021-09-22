@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lexend Deca';
+    background-color: hsl(0, 0%, 95%);
+}
+
+.cards {
+    display: flex;
+    width: min-content;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.card {
+    /* margin-top: 5rem; */
+    padding: 60px;
+    min-width: 12.5rem;
+    /* min-height: 25rem; */
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#lux {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+
+
+/* Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) */
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+}
+
+button {
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    padding: 10px;
+    border-style: none;
+}
+
+#sedan>button {
+    font-family: 'Lexend Deca';
+    color: hsl(31, 77%, 52%);
+}
+
+#suv>button {
+    font-family: 'Lexend Deca';
+    color: hsl(184, 100%, 22%);
+}
+
+#lux>button {
+    font-family: 'Lexend Deca';
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    color: white;
+    border: solid white;
+}
+
+#sedan>button:hover {
+    font-family: 'Lexend Deca';
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#suv>button:hover {
+    font-family: 'Lexend Deca';
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#lux>button:hover {
+    font-family: 'Lexend Deca';
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 375px) {
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 0;
+    }
+    #sedan {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 15px 15px 0 0;
+    }
+    #suv {
+        background-color: hsl(184, 100%, 22%);
+    }
+    #lux {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 15px 15px;
+    }
+}
